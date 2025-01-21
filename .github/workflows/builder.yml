@@ -11,7 +11,7 @@ env:
 
 concurrency:
   group: ${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build_rtl_433:
@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        arch: [armhf, armv7, aarch64, amd64, i386]
-        addon: [rtl_433, rtl_433-next, rtl_433_mqtt_autodiscovery, rtl_433_mqtt_autodiscovery-next]
+        arch: [aarch64]
+        addon: [rtl_433, rtl_433-next, rtl_433_mqtt_autodiscovery]
 
     steps:
     - name: Inject slug/short variables
