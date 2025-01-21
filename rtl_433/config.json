@@ -1,6 +1,6 @@
 {
   "name": "rtl_433 - Kayl",
-  "version": "0.5.2",
+  "version": "next",
   "slug": "rtl433",
   "description": "Receive wireless sensor data via an SDR dongle and rtl_433",
   "url": "https://github.com/kayl669/rtl_433-hass-addons/tree/main/rtl_433",
