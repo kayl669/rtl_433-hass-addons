@@ -3,6 +3,6 @@
     "aarch64": "ghcr.io/home-assistant/aarch64-base:3.21"
   },
   "args": {
-    "rtl433GitRevision": "nightly"
+    "rtl433GitRevision": "master"
   }
 }
